@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import 'aos/dist/aos.css';
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ --azul-escuro: #002333;
+ --verde-turquesa: #159a9c;
+ --verde-claro: #deefe7;
+ --cinza: #b4bec9;
+ --titulo-preto: #242424;
+ --fonte-principal: 'Poppins', 'sans-serif';
+ --fonte-secundaria: 'Roboto', 'sans-serif';
+ --fundo: #fffefe;
+ --branco: #ffff;
+}
+
+body{
+ font-family: var(--fonte-principal);
+ font-size: 14px;
+ color: var(--titulo-preto);
+ background-color: var(--fundo);
+}
+
+h3{
+ font-size: 22px;
+}
+h2{
+ font-size: 28px;
+}
