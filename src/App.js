@@ -8,6 +8,7 @@ import { Home } from "./pages/Home"
 import Footer from './componentes/Footer';
 
 
+<<<<<<< HEAD
 
 function App() {
  return (
@@ -23,6 +24,24 @@ function App() {
     <Footer />
    </BrowserRouter>
   </>
+=======
+function App() {
+ return (
+  <BrowserRouter>
+
+   <Layout />
+
+   <div className="container">
+    <Routes>
+     <Route path="/" element={<Home />} />
+
+
+    </Routes>
+   </div>
+   <Footer />
+  </BrowserRouter>
+
+>>>>>>> gh-pages
  );
 }
 
