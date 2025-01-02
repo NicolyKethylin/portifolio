@@ -1,0 +1,80 @@
+@import 'aos/dist/aos.css';
+
+.textoprincipal {
+  margin-top:100px;
+  text-align: center;
+}
+
+.iconeText {
+  gap: 10px;
+  display: flex;
+  justify-items: center;
+}
+
+.iconehabilidade ion-icon {
+  margin-left: 40px;
+}
+
+.container-grid {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.hardskill img {
+  padding: 5px;
+}
+
+.hardskill, .academico, .certi {
+  background-color: var(--verde-claro);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  justify-items: start;
+  color: 12px;
+  height: auto;
+}
+
+.hardskill ion-icon, .certi ion-icon {
+  color: var(--verde-turquesa);
+  margin-left: 2px;
+}
+
+.certi li {
+  list-style-type: none;
+  text-align: start;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 800px) {
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(8 , 180px);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    list-style-type: none;
+  }
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.hardskill ion-icon, .certi img {
+  color: var(--verde-turquesa);
+
+}
+
+.hardskill {
+  grid-column: 2/4; 
+
+
+}
+
+.certi {
+  grid-column: 4/8;
+
+}
