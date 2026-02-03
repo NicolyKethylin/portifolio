@@ -1,0 +1,27 @@
+:root {
+  /* COLORS */
+  --color-grey-80: 46, 54, 61;
+  --color-grey-70: #5C6268;
+  --color-grey-50: #697F92;
+  --color-blue-20: #6895BD;
+  --color-blue-50: #59A5E7;
+  --color-white-30: #cccccc;
+  --color-white-20: #bbbbbb;
+
+  /* BACKGROUD */
+  --grad-background: #F5F7FA, radial-gradient(circle, rgba(245, 247, 250, 1) 72%, rgba(195, 207, 226, 1) 100%);
+
+  /* TYPOGRAFIA */
+  --font-titulo-l-bold: 700 5rem 'Poppins', sans-serif, uppercase;
+  --font-titulo-l-line: 400 5rem 'Poppins', sans-serif, uppercase;
+
+  --font-titulo-m-bold: 700 3.3rem 'Poppins', sans-serif, uppercase;
+  --font-titulo-m-line: 400 3.3rem 'Poppins', sans-serif, uppercase;
+
+  --font-titulo-sm-bold: 700 2.25em 'Poppins', sans-serif, uppercase;
+  --font-titulo-sm-line: 400 2.25em 'Poppins', sans-serif, uppercase;
+
+  --font-padrao: 400 1rem 'Poppins', sans-serif;
+  --font-padrao-bold: 700 1rem 'Poppins', sans-serif;
+
+}
