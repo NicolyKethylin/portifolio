@@ -1,0 +1,10 @@
+.footer-main{
+max-width: 100%;
+padding: 1rem 1.5rem;
+background: rgba(var(--color-grey-80), 0.9);
+}
+
+.description-footer{
+    font: var(--font-padrao);
+    color: var(--color-white);
+}

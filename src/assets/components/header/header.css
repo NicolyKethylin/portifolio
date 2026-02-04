@@ -1,0 +1,51 @@
+.grid-background {
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff; /* fundo branco liso */
+}
+
+.grid-background::before {
+  content: '';
+  position: absolute;
+
+  width: 1000px;
+  height: 700px;
+
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+ background-image:
+  linear-gradient(rgba(224, 224, 224, 0.3) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(224, 224, 224, 0.3) 1px, transparent 1px);
+  background-size: 32px 32px;
+
+  -webkit-mask-image: radial-gradient(
+    circle at 50% 100%,   
+    #000 0%,
+    #000 100%,
+    transparent 80%
+  );
+  mask-image: radial-gradient(
+    circle at 50% 100%,
+    #000 0%,
+    #000 20%,
+    transparent 80%
+  );
+
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* garante que o conteúdo fique na frente */
+.grid-background > * {
+  position: relative;
+  z-index: 1;
+}
+
+.box-template{
+  display: flex;
+  margin-top: 20px;
+}

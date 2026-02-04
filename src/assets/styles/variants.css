@@ -7,6 +7,7 @@
   --color-blue-50: #59A5E7;
   --color-white-30: #cccccc;
   --color-white-20: #bbbbbb;
+  --color-white: #ffffff;
 
   /* BACKGROUD */
   --grad-background: #F5F7FA, radial-gradient(circle, rgba(245, 247, 250, 1) 72%, rgba(195, 207, 226, 1) 100%);
